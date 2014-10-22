@@ -8,25 +8,9 @@ Master branch requires manual setup, although no compilation, and prebuilt is re
 Installation
 ==============
 
-Apt-get Binaries (~5kb download, and quicker apt-get download)
-- sudo add-apt-repository ppa:irie/blender && sudo apt-get update
-- sudo apt-get install blender, and launch blender with 'blender' command
-- download two python scripts
-- file --> user preferences --> addons --> install from file --> select Caffe Nodes script --> install
-- tick the checkbox in the newly appeared box's top right corner
-- file --> user preferences --> addons --> install from file --> select Caffe Generate script --> install
-- tick the checkbox in the newly appeared box's top right corner
-- user preferences --> file --> uncheck relative paths (IMPORTANT)
-- click on the cube icon in the bottom left
-- click 'node editor' in the popup menu
-- in the newly appeared node editor, look at the bottom panel, it should read 'view - select - add - node'
-- immediately right of this panel there should be a set of four icons joined together. select the THIRD.
-- file --> save startup file
-- file --> user preferences --> save user settings (on the bottom of the window(
-- restart blender
-
 Git prebuilt Binaries (Simpler, but less reliable)
-- launch blender with ./blender in directory
+- extract blender archive in presetup
+- launch blender with ./blender
 
 Use
 ============
