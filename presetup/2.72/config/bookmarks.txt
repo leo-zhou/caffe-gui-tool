@@ -1,0 +1,12 @@
+[Bookmarks]
+[Recent]
+/home/hugh/Downloads/caffe-gui-tool/Master/caffe-gui-tool/
+/home/hugh/Downloads/caffe-gui-tool/
+/home/hugh/Downloads/blender-2.72-linux-glibc211-x86_64/2.72/
+/home/hugh/Downloads/blender-2.72-linux-glibc211-x86_64/2.72/scripts/addons/
+/home/hugh/caffe/examples/mnist/htest1253/
+/home/hugh/caffe/examples/mnist/htrain1253/
+/home/hugh/caffe/examples/mnist/htest80d/
+/home/hugh/caffe/examples/mnist/htest40d/
+/home/hugh/caffe/examples/mnist/htrain40d/
+/home/hugh/caffe/examples/mnist/mnist_test_lmdb/
