@@ -14,7 +14,7 @@ def convtemplate(name, OutputLs, Padding, kernelsize, Stride, bottom, bfv, flr, 
     string = \
         'layer {\n\
         name: "%s"\n\
-        type: "convolution"\n\
+        type: "Convolution"\n\
         param {\n\
         lr_mult: %i\n\
         decay_mult: %i\n\
@@ -71,7 +71,7 @@ def datatemplate(name, batchsize, trainpath, testpath,supervised, maxval=255):
         }\n\
         layer {\n\
         name: "%s"\n\
-        type: DATA\n\
+        type: "Data"\n\
         top: "%s"\n\
         %s\n\
         data_param {\n\
@@ -220,7 +220,7 @@ def SMtemplate(name, bottom, w):
     string = \
         'layer {\n\
         name: "loss"\n\
-        type: "Softmax"\n\
+        type: "SoftmaxWithLoss"\n\
         bottom: "%s"\n\
         bottom: "label"\n\
         top: "%s"\n\
